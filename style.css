@@ -1,0 +1,249 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+* {
+  box-sizing: border-box;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+.wrap {
+  margin: 0 auto;
+  width: 350px;
+}
+
+.top {
+  height: 109px;
+  width: 100%;
+  padding: 20px 10px;
+  background: #041936;
+  color: white;
+  text-align: right;
+  letter-spacing: 1px;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.formula {
+  font-size: 16px;
+  line-height: 20px;
+  color: #00c4ff;
+}
+
+.screen {
+  font-size: 56px;
+  line-height: 66px;
+  color: white;
+}
+
+.keys {
+  background: #062145;
+  border-radius: 0px 0px 20px 20px;
+  padding: 0 8px;
+}
+
+.keys span,
+.span.clear {
+  /* float: left; */
+  display: inline-block;
+  cursor: pointer;
+  width: 72px;
+  height: 64px;
+  border-radius: 16px;
+  box-shadow: 0px 4px rgba(0, 0, 0, 0.2);
+  margin: 16px 0;
+  color: #ffffff;
+  font-size: 24px;
+  line-height: 64px;
+  text-align: center;
+  user-select: none;
+  transition: all 0.2s ease;
+  margin-right: 8px;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.keys span.operator {
+  background: #041936;
+  margin-right: 0;
+}
+
+.keys span.clear {
+  color: #00c4ff;
+}
+
+.keys span.delet {
+  color: #00c4ff;
+}
+
+.keys span.eval {
+  background: linear-gradient(to right, #00c4ff, #6c00ff);
+  width: 155px;
+}
+
+.keys span:hover {
+  background: rgba(255, 255, 255, 0.8);
+  color: #333;
+}
+
+.keys span:active {
+  box-shadow: 0px 0px rgba(0, 0, 0, 0.2);
+  top: 4px;
+}
+
+/* 
+
+.keys span.eval:hover {
+  background: #abb850;
+  color: #ffffff;
+}
+
+span.clear:hover {
+  border-radius: 190px;
+  background: rgba(0, 0, 0, 0.1);
+  color: white;
+}
+
+.keys span:active {
+  box-shadow: 0px 0px rgba(0, 0, 0, 0.2);
+  top: 4px;
+}
+
+.keys span.eval:active {
+  box-shadow: 0px 0px #717a33;
+  top: 4px;
+}
+
+.span.clear:active {
+  top: 4px;
+  box-shadow: 0px 0px #d3545d;
+} */
